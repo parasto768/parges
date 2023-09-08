@@ -8,7 +8,7 @@ def top_1(arr):
             values[i] += 1
         else:
             values[i] = 1
-
-    print(values, end='\n')
+    values=sorted(values)
+    print(values,)
    
 top_1("hello, I am ali zahedi from iran. tehran province, the biggest and number one man in programming, web and security and of course artificial intelligence.")
