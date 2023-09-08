@@ -1,0 +1,14 @@
+def top_1(arr):
+    values = {}
+    result = []
+    f_val = 0
+
+    for i in arr:
+        if i in values:
+            values[i] += 1
+        else:
+            values[i] = 1
+
+    print(values, end='\n')
+   
+top_1("hello, I am ali zahedi from iran. tehran province, the biggest and number one man in programming, web and security and of course artificial intelligence.")
